@@ -80,7 +80,7 @@ select {
 main {
     max-width: 1264px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 40px 30px;
 }
 
 .display-flex{
@@ -90,4 +90,11 @@ main {
 .main__video {
     width: 576px;
     height: 360px;
+}
+
+.main-title {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 400;
 }
