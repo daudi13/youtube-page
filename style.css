@@ -87,6 +87,10 @@ main {
     display: flex;
 }
 
+.left__container {
+    padding-right: 30px;
+}
+
 .main__video {
     width: 576px;
     height: 360px;
@@ -97,4 +101,47 @@ main {
     font-size: 1.4rem;
     line-height: 2.6rem;
     font-weight: 400;
+}
+
+.vide-title {
+    margin-bottom: 15px;
+}
+
+.caption-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding-bottom: 15px;
+}
+
+.flex-left {
+    justify-content: space-between;
+}
+
+.flex-left > p {
+    color: rgb(88, 86, 86);
+    font-family: "Roboto", "Arial";
+    font-size: 1rem;
+}
+
+.flex-left > * + * {
+    margin-left: 10px;
+}
+
+.flex-right > * + * {
+    margin-left: 25px;
+}
+
+.flex-right > span {
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Roboto", "Arial", sans-serif;
+    
+}
+
+.flex-right > span > i {
+    font-size: 1.3rem;
+    margin-right: 0.4rem;
 }
