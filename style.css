@@ -78,7 +78,7 @@ select {
 }
 
 main {
-    max-width: 1264px;
+    max-width: 1664px;
     margin: 0 auto;
     padding: 40px 30px;
 }
@@ -153,6 +153,7 @@ main {
 .video__id {
     display: flex;
     margin-bottom: 16px;
+    border-bottom: 1px solid rgb(207, 207, 207);
 }
 
 
@@ -194,6 +195,7 @@ main {
     padding: 10px 16px;
     letter-spacing: 1px;
     border: 0;
+    cursor: pointer;
 }
 
 .subscription {
@@ -214,4 +216,96 @@ main {
     font-size: 14px;
     text-decoration: none;
     color: rgb(88, 86, 86);
+}
+
+.top {
+    display: flex;
+    align-content: center;
+}
+
+.top > * {
+    font-size: 18px;
+}
+
+.top > * + * {
+    margin-left: 30px;
+}
+
+.bottom  {
+    display: flex;
+    margin: 15px 0;
+}
+
+.bottom > .user__id > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.bottom > input {
+    margin-left: 30px;
+    width: 100%;
+    border: 0;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0.05), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
+}
+
+.bottom > input:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-family: "roboto";
+}
+
+.comment__box {
+    display: flex;
+}
+
+.user__id > img {
+    border-radius: 50%;
+}
+
+
+.user__info {
+    margin-left: 20px
+}
+
+.user__info > .name__period {
+    display: flex;
+}
+
+.name__period > :first-child {
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+.name__period > :last-child {
+    color: rgb(88, 86, 86);
+}
+
+.user__info > .description {
+    margin: 0;
+}
+
+.comments  > .comment__box + .comment__box {
+    margin-top: 25px;
+}
+
+.user__info > .likes > * {
+    font-size: 15px
+}
+
+.likes > * + * {
+    margin-left: 15px;
+}
+
+.likes > span > i {
+    margin-right: 8px;
+}
+
+.likes > :last-child {
+    color: rgb(88, 86, 86);
+    font-size: 14px;
 }
