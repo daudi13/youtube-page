@@ -145,3 +145,73 @@ main {
     font-size: 1.3rem;
     margin-right: 0.4rem;
 }
+
+.video__info {
+    margin-top: 10px;
+}
+
+.video__id {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+
+.video__id > .video__owner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.video__owner-info > .box-one {
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    
+}
+
+.video__id > .id {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    background-color: forestgreen;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-family: "Roboto" , sans-serif;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 0 4px;
+    padding: 10px 16px;
+    letter-spacing: 1px;
+    border: 0;
+}
+
+.subscription {
+    background: red;
+}
+
+.description {
+    max-width: 600px;
+    line-height: 1.3;
+    margin: 15px 0;
+}
+
+.description > p {
+    font-size: 15px;
+}
+
+.description > a  {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(88, 86, 86);
+}
