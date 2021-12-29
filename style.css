@@ -309,3 +309,26 @@ main {
     color: rgb(88, 86, 86);
     font-size: 14px;
 }
+
+.right__container > .top > * {
+    height: 32px;
+    min-width: 12px;
+    padding: 0 10px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    background: grey;
+}
+
+.top > .active {
+    color: ;
+}
