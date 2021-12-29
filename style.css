@@ -325,10 +325,13 @@ main {
     flex-direction: row;
     align-items: center;
     text-decoration: none;
-    color: #fff;
-    background: grey;
+    color: #000;
+    background: rgb(160, 160, 160);
+    font-size: 15px;
+    border: 1px solid grey;
 }
 
 .top > .active {
-    color: ;
+    color: #fff;
+    background: #000;
 }
