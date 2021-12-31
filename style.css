@@ -344,8 +344,6 @@ main {
 
 .right__secs > .box {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .box > .image {
@@ -370,5 +368,17 @@ main {
 
 .box > .box__info {
     flex: 2;
+    margin-left: 10px;
+    font-family: 'Roboto';
 }
+
+.box__info > .title {
+    font-weight: 700;
+    display: block;
+}
+
+.box__info > .box__name {
+    display: block;
+} 
+
 
