@@ -126,9 +126,19 @@ select {
     position: relative;
 }
 
+.header__mid > input::placeholder {
+    font-size: 1.1rem;
+}
+
+.header__mid > input:focus {
+    outline: none;
+}
+
 .header__mid > button {
     height: 44px;
-    width: 50px;
+    width: 12%;
+    background-color: inherit;
+    border: 1px solid grey;
 }
 
 .header__mid > .fa-microphone {
