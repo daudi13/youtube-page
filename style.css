@@ -34,6 +34,7 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    font-family: "Roboto";
 }
 
 /* a elements that don't have a class get default styles */
@@ -362,11 +363,30 @@ iframe {
 
 
 .user__info {
-    margin-left: 20px
+    margin-left: 20px;
 }
 
 .user__info > .name__period {
     display: flex;
+    align-items: center;
+}
+
+.name__period > .period {
+    margin-left: 10px;
+    font-size: 0.8rem;
+} 
+
+.name__period > .name {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.user__info > .description {
+    font-size: 0.8rem;
+}
+
+.user__info > .likes > span:last-child {
+    font-size: 0.7rem!important;
 }
 
 .name__period > :first-child {
@@ -454,18 +474,17 @@ iframe {
 }
 
 .box > .image > img  {
-    height: 94px!important;
-    width: 164px!important;
-    object-fit: cover;
+    height: 100%;
 }
 
 .image > .time  {
     position: absolute;
     bottom: 0;
     right: 0;
-    padding:5px 10px;
+    padding:3px 7px;
     color: #fff;
     background: #000;
+    font-size: 13px;
 }
 
 .box > .box__info {
