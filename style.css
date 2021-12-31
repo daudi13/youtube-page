@@ -77,6 +77,77 @@ select {
     }
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.header > .header__left {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header__left > * + * {
+    margin-left: 30px;
+}
+
+.header__left > i {
+    font-size: 1.3rem;
+}
+
+.header__left > .image {
+    height: 30px;
+    display: flex;
+}
+
+.image > sup {
+    margin-left: 5px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.header__right > * + * {
+    margin-left: 30px;
+}
+
+.header > .header__mid {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__mid > input {
+    width: 70%;
+    padding: 8px;
+    position: relative;
+}
+
+.header__mid > button {
+    height: 44px;
+    width: 50px;
+}
+
+.header__mid > .fa-microphone {
+    margin-left: 10px;
+    font-size: 1.6rem;
+}
+
+
+.header > .header__right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__right > i {
+    font-size: 1.3rem;
+}
+
 main {
     max-width: 1664px;
     margin: 0 auto;
@@ -331,6 +402,14 @@ main {
     border: 1px solid grey;
 }
 
+.right__container > * + * {
+    margin-bottom: 0.5rem;
+}
+
+.right__container > :first-child {
+    margin-bottom: 0!important;
+}
+
 .top > * + * {
     margin-left: 20px;
     margin-bottom: 20px;
@@ -367,9 +446,12 @@ main {
 }
 
 .box > .box__info {
+    display: flex;
+    flex-direction: column;
     flex: 2;
     margin-left: 10px;
     font-family: 'Roboto';
+    justify-content: space-between;
 }
 
 .box__info > .title {
@@ -379,6 +461,14 @@ main {
 
 .box__info > .box__name {
     display: block;
+    color: rgb(90, 90, 90);
+    font-size: 0.8rem;
 } 
+
+.box__info > .numbers {
+    display: block;
+    color: rgb(90, 90, 90);
+    font-size: 0.8rem;
+}
 
 
