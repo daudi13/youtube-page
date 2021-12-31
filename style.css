@@ -125,7 +125,7 @@ select {
     padding: 8px;
     position: relative;
     font-family: "Roboto";
-    
+
 }
 
 .header__mid > input::placeholder {
@@ -239,6 +239,17 @@ main {
     border-bottom: 1px solid rgb(207, 207, 207);
 }
 
+iframe {
+    width: 1100px;
+    height: 515px;
+}
+
+
+@media (max-width: 1400px) {
+    iframe {
+        width: 800px;
+    }
+}
 
 .video__id > .video__owner-info {
     display: flex;
