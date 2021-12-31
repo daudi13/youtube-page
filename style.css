@@ -124,6 +124,8 @@ select {
     width: 70%;
     padding: 8px;
     position: relative;
+    font-family: "Roboto";
+    
 }
 
 .header__mid > input::placeholder {
@@ -136,7 +138,7 @@ select {
 
 .header__mid > button {
     height: 44px;
-    width: 12%;
+    width: 10%;
     background-color: inherit;
     border: 1px solid grey;
 }
